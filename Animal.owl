@@ -1,0 +1,774 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#"
+     xml:base="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-25="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#bloodType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#bloodType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#color -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#color"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#eats -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#eats"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#numberOfHands -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#numberOfHands"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#numberOfLegs -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#numberOfLegs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#numberOfWings -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#numberOfWings"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Amphibian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Amphibian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Cold_Blooded"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Aqautic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Aqautic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Mammal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bird -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bird">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Warm_Blooded"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Carnivore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Carnivore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#PlantsAndAnimals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Cold_Blooded -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Cold_Blooded">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Vertibrate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#PlantsAndAnimals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Mammal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Mammal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Warm_Blooded"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Onmnivore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Onmnivore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#PlantsAndAnimals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#PlantsAndAnimals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#PlantsAndAnimals">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Primate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Primate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Mammal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Reptile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Reptile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Cold_Blooded"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Vertibrate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Vertibrate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#PlantsAndAnimals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Warm_Blooded -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Warm_Blooded">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Vertibrate"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Albatrosses -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Albatrosses">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bird"/>
+        <bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm</bloodType>
+        <color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Golden White</color>
+        <numberOfLegs rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfLegs>
+        <numberOfWings rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfWings>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Antelopes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Antelopes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bear -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bear">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Onmnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh and plant based material.</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bison -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bison">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bongo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bongo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bushbuck -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bushbuck">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Camel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Camel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Capybara -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Capybara">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Cheetah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Cheetah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Carnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Chimpanzee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Chimpanzee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Onmnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh and plant based material.</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Chipmunk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Chipmunk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Onmnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh and plant based material.</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Coatis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Coatis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Onmnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh and plant based material.</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Cow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Cow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Crane -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Crane">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bird"/>
+        <bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm</bloodType>
+        <color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown</color>
+        <numberOfLegs rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfLegs>
+        <numberOfWings rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfWings>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Cuckoos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Cuckoos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bird"/>
+        <bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm</bloodType>
+        <color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gray</color>
+        <numberOfLegs rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfLegs>
+        <numberOfWings rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfWings>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Deer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Deer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Dog -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Dog">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Onmnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh and plant based material.</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Elephant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Elephant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Felidae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Felidae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Carnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Finches -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Finches">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bird"/>
+        <bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm</bloodType>
+        <color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bright Red</color>
+        <numberOfLegs rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfLegs>
+        <numberOfWings rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfWings>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Giraffe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Giraffe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Goat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Goat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Gorilla -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Gorilla">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Hedgehogs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Hedgehogs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Onmnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh and plant based material.</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herons -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herons">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bird"/>
+        <bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm</bloodType>
+        <color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blue-Gray</color>
+        <numberOfLegs rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfLegs>
+        <numberOfWings rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfWings>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Hippopotamus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Hippopotamus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Horse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Horse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Hummingbird -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Hummingbird">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bird"/>
+        <bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm</bloodType>
+        <color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Golden Green</color>
+        <numberOfLegs rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfLegs>
+        <numberOfWings rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfWings>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Hyena -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Hyena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Carnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Kangaroo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Kangaroo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Kingfisher -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Kingfisher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bird"/>
+        <bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm</bloodType>
+        <color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange and Blue</color>
+        <numberOfLegs rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfLegs>
+        <numberOfWings rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfWings>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Koala -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Koala">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Leopard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Leopard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Carnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Lion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Lion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Carnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Manatee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Manatee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Okapi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Okapi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Opossum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Opossum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Onmnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh and plant based material.</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Owl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Owl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bird"/>
+        <bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm</bloodType>
+        <color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mottled gray-brown</color>
+        <numberOfLegs rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfLegs>
+        <numberOfWings rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfWings>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Parrots -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Parrots">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bird"/>
+        <bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm</bloodType>
+        <color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green</color>
+        <numberOfLegs rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfLegs>
+        <numberOfWings rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfWings>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Pig -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Pig">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Onmnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh and plant based material.</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Polar_Bear -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Polar_Bear">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Carnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Pongo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Pongo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Rabbit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Rabbit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Raccoon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Raccoon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Onmnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh and plant based material.</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Reindeer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Reindeer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Rhinoceros -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Rhinoceros">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Sharks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Sharks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Carnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Sheep -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Sheep">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Squirrel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Squirrel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Onmnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh and plant based material.</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Stork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Stork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bird"/>
+        <bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm</bloodType>
+        <color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White and Black</color>
+        <numberOfLegs rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfLegs>
+        <numberOfWings rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfWings>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Swallow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Swallow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bird"/>
+        <bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm</bloodType>
+        <color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steely blue</color>
+        <numberOfLegs rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfLegs>
+        <numberOfWings rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfWings>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Swifts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Swifts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bird"/>
+        <bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm</bloodType>
+        <color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown</color>
+        <numberOfLegs rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfLegs>
+        <numberOfWings rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfWings>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Tapir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Tapir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Thrush -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Thrush">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bird"/>
+        <bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm</bloodType>
+        <color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blue-gray, burnt-orange and sooty-black.</color>
+        <numberOfLegs rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfLegs>
+        <numberOfWings rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfWings>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Tiger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Tiger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Carnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Tit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Tit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bird"/>
+        <bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm</bloodType>
+        <color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green and yellow</color>
+        <numberOfLegs rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfLegs>
+        <numberOfWings rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfWings>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Wolf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Wolf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Carnivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Woodpeckers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Woodpeckers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bird"/>
+        <bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm</bloodType>
+        <color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive and Brown</color>
+        <numberOfLegs rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfLegs>
+        <numberOfWings rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfWings>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Wrens -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Wrens">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Bird"/>
+        <bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm</bloodType>
+        <color rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gray, brown, black and white</color>
+        <numberOfLegs rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfLegs>
+        <numberOfWings rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfWings>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Zebra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Zebra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/ontologies/2020/8/untitled-ontology-25#Herbivore"/>
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

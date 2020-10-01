@@ -1,0 +1,455 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/eats#"
+     xml:base="http://www.semanticweb.org/eats"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-25="http://www.semanticweb.org/eats#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/eats"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/eats#eats -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/eats#eats"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Carnivore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eats#Carnivore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eats#PlantsAndAnimals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Herbivore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eats#Herbivore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eats#PlantsAndAnimals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Omnivore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eats#Omnivore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eats#PlantsAndAnimals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#PlantsAndAnimals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eats#PlantsAndAnimals">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Antelopes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Antelopes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Bear -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Bear">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Omnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Bison -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Bison">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Bongo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Bongo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Bushbuck -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Bushbuck">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Camel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Camel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Capybara -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Capybara">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Carnivore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Carnivore">
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Cheetah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Cheetah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Carnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Chimpanzee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Chimpanzee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Omnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Chipmunk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Chipmunk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Omnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Coatis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Coatis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Omnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Cow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Cow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Deer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Deer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Dog -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Dog">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Omnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Elephant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Elephant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Felidae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Felidae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Carnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Giraffe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Giraffe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Goat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Goat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Gorilla -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Gorilla">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Hedgehogs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Hedgehogs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Omnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Herbivore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Herbivore">
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant based material</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Hippopotamus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Hippopotamus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Horse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Horse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Hyena -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Hyena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Carnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Kangaroo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Kangaroo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Koala -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Koala">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Leopard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Leopard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Carnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Lion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Lion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Carnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Manatee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Manatee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Okapi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Okapi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Omnivore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Omnivore">
+        <eats rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flesh and plant based material.</eats>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Opossum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Opossum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Omnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Pig -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Pig">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Omnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Polar_Bear -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Polar_Bear">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Carnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Rabbit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Rabbit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Raccoon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Raccoon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Omnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Reindeer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Reindeer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Rhinoceros -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Rhinoceros">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Sharks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Sharks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Carnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Sheep -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Sheep">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Squirrel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Squirrel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Omnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Tapir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Tapir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Tiger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Tiger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Carnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Wolf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Wolf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Carnivore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/eats#Zebra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eats#Zebra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eats#Herbivore"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
